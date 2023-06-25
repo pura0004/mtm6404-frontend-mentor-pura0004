@@ -11,3 +11,30 @@
     --Very-dark-blue: hsl(240, 100%, 5%);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+
+ /* Reset */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main  */
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--Off-white);
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    height: auto;
+    margin: 20px 100px;
+    line-height: 1;
+}
+
+
+
