@@ -100,6 +100,24 @@ a {
     opacity: 2;
 }
 
+/* burger menu css add */
+.hamburger, .close {
+    display: none;
+}
+  
+.nav-menu {
+    display: flex;
+}
+
+.bar {
+    display: block;
+    width: 30px;
+    height: 22px;
+    margin: 8px auto;
+    transition: all 0.5s ease-in-out;
+}
+
+
 
 
 
