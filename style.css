@@ -156,6 +156,50 @@ sub-wrapper-1 {
 
 
 
+.header-text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 20px;
+    font-size: 18px;
+    color: var(--Grayish-blue);
+}
+
+
+.sub-wrapper-2 {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 18px;
+    background: var(--Very-dark-blue);
+}
+
+
+.sub-wrapper-2 h2 {
+    margin: 25px 0 12px 0;
+    text-align: left;
+    font-size: 25px;
+    color: var(--Soft-orange);
+}
+
+.sub-wrapper-2 h3 {
+    font-size: 17px;
+    margin: 15px 0;
+}
+
+.sub-wrapper-2 div a {
+    color: var(--White);
+    text-align: left;
+}
+
+.sub-wrapper-2 div a:hover, .sub-wrapper-2 div a:focus, .sub-wrapper-2 div a:active {
+    color: var(--Soft-orange);
+}
+
+
+
+
+
 
 
 
