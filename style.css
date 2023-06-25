@@ -78,5 +78,31 @@ a {
 
 
 
+.nav-items {
+    margin-left: 25px;
+}
+
+.nav-items a:hover, .nav-items a:focus, .nav-items a:active{
+    color: var(--Soft-red);
+}
+
+
+.navbar .logo img {
+    display: block;
+    width: 42px;
+}
+
+.navbar .logo {
+    transition: all 0.5s ease-in-out;
+}
+  
+.navbar .logo:hover {
+    opacity: 2;
+}
+
+
+
+
+
 
 
