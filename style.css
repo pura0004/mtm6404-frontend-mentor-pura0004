@@ -225,6 +225,19 @@ sub-wrapper-1 {
 }
 
 
+/* side content */
+.wrapper-2 {
+    display: flex;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+.wrapper-2 div {
+    display: flex;
+    gap: 15px;
+}
+
+
 
 
 
