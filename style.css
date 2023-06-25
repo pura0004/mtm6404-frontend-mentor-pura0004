@@ -321,6 +321,21 @@ body {
   transition: 0.5s;
 }
 
+.nav-close.active {
+    right: 20px;
+  }
+
+  .close {
+    display: block;    
+    width: 30px;
+    height: 30px;
+}
+
+.hamburger {
+    display: block;
+    cursor: pointer;
+}
+
 
 
 
