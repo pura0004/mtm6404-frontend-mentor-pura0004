@@ -196,6 +196,38 @@ sub-wrapper-1 {
     color: var(--Soft-orange);
 }
 
+.sub-wrapper-2 div p {
+    color: var(--Grayish-blue);
+    margin-bottom: 22px;
+}
+
+.border {
+    border-top: 2px solid var(--Grayish-blue);
+    border-bottom: 2px solid var(--Grayish-blue);
+}
+
+.btn {
+    width: 150px;
+    display: block;
+    padding: 12px 0;
+    outline: none;
+    background-color: var(--Soft-red);
+    border: none;
+    font-size: 12px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.btn:hover, .btn:active, .btn:focus {
+    background-color: var(--Very-dark-blue);
+}
+
+
+
+
+
 
 
 
