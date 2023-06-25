@@ -16,25 +16,38 @@ html {
 }
 
 
- /* Reset */
+
  * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Main  */
+/* Css Main start   */
 body {
     display: flex;
     flex-direction: column;
     background-color: var(--Off-white);
     align-items: center;
     font-family: 'Inter', sans-serif;
-    font-size: 15px;
+    font-size: 18px;
     height: auto;
     margin: 20px 100px;
     line-height: 1;
 }
+
+h1 {
+    font-size: 45px;
+    color: var(--Very-dark-blue);
+    text-align: left;
+}
+
+p {
+    color: var(--Dark-grayish-blue);
+    text-align: left;
+}
+
+
 
 
 
