@@ -234,8 +234,105 @@ sub-wrapper-1 {
 
 .wrapper-2 div {
     display: flex;
-    gap: 15px;
+    gap: 18px;
 }
+
+.wrapper-2 img {
+    width: 100px;
+    height: auto;
+}
+
+.sub-wrapper-3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-wrapper-3 h1 {
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--Grayish-blue);
+}
+
+.sub-wrapper-3 h2 {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.sub-wrapper-3 h2:hover {
+   color: var(--Soft-red);
+}
+
+
+/* media queries csss */
+
+body {
+    overflow-x: hidden;
+        margin: 10px 20px;
+}
+
+/* Query Navbar */
+.navbar {
+    right: 0;
+    left: 0;
+    padding: 50px 22px;
+}
+
+.nav-menu {
+    position: fixed;
+    right: -100%;
+    top: 0;
+    flex-direction: column;
+    width: 75%;
+    height: 100%;
+    text-align: left;
+    transition: 0.5s;
+    background-color: var(--Off-white);
+}
+
+.nav-menu li:first-child {
+    margin-top: 10rem;
+  }
+
+  .nav-menu.active {
+    right: 0;
+}
+
+.nav-items {
+    margin: 20px 30px;
+    font-size: 22px;
+}
+
+.navbar ul li a {
+    color: var(--Very-dark-blue);
+}
+
+
+.navbar ul li a:hover {
+    color: var(--Soft-red);
+}
+
+.nav-close {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  display: block;
+  top: 40px;
+  right: -100%;
+  transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
