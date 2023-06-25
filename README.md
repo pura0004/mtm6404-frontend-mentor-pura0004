@@ -1,7 +1,7 @@
 
 # Frontend Mentor Challenge
 
-# Chosen Challenge : News homepage
+# Chosen Challenge : News Homepage
 
 ## Name: Jishnu Purahoo
 
